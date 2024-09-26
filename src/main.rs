@@ -1,3 +1,8 @@
-fn main() {
-    println!("Hello, world!");
-}
+//! TODO: Document the crate
+
+#![no_main]
+#![no_std]
+
+mod bsp;
+mod cpu;
+mod panic_wait;
